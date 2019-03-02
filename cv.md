@@ -19,12 +19,13 @@ _My skills:_
     1. GitHub
 1. npm usage
 _Examples of code:_ 
-React-component, that checks cookie
+React-component Button, text depends on existence cookie in the browser:
     ```javascript
     import React from 'react'
     import cookies from 'react-cookies'
     import styled from 'styled-components'
 
+    const IS_AUTH = 'cookie_auth'
     const ButtonContainer = styled.button'
 
     '
@@ -33,8 +34,8 @@ React-component, that checks cookie
             isAuth: false
         }
         checkCookie = () => {
-            let cookies.load(IS_AUTH);
-            if (IS_AUTH) {
+            let cookieExist = cookies.load(IS_AUTH);
+            if (cookieExist) {
                 this.setState({
                     isAuth: true
                 })
@@ -55,9 +56,9 @@ React-component, that checks cookie
     }
     ```
 _My pet-projects:_
-1. Snake-game: js
+2. Snake-game: js
 [GitHub](https://github.com/GoldilocksJB/Snake)
-1. Calculator: js + css (canvas) 
+2. Calculator: js + css (canvas) 
 [GitHub](https://github.com/GoldilocksJB/Calculator)
-1. Articles of poetry: react.js
+2. Articles of poetry: react.js
 [GitHub](https://github.com/GoldilocksJB/Blog)
