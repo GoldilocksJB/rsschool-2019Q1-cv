@@ -1,8 +1,9 @@
 ## Bondarenko Evgeniya
-* _contacts:_ __Phone:__ +7-919-45-42-807, __e-mail:__ evgeni.zv@gmail.com
+_contacts:_ __Phone:__ +7-919-45-42-807, __e-mail:__ evgeni.zv@gmail.com
 
-* _Summary:_ 
-* _My skills:_
+_Summary:_ 
+
+_My skills:_
 1. Page-proofs: 
     1. HTML
     1. CSS
@@ -18,8 +19,10 @@
     1. GitLab
     1. GitHub
 1. using of npm
-* _Examples of code:_ 
-React-component Button, text depends on cookie's existence in the browser:
+
+ _Examples of code:_ 
+
+React-component __Button__, text depends on cookie's existence in the browser:
     ```javascript
     import React from 'react'
     import cookies from 'react-cookies'
@@ -55,8 +58,8 @@ React-component Button, text depends on cookie's existence in the browser:
         }
     }
     ```
-    
-* _My pet-projects:_
+
+_My pet-projects:_
 2. Snake-game: js
 [GitHub](https://github.com/GoldilocksJB/Snake)
 2. Calculator: js + css (canvas) 
