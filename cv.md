@@ -1,14 +1,14 @@
 ## Bondarenko Evgeniya
-_contacts:_ __Phone:__ +7-919-45-42-807, __e-mail:__ evgeni.zv@gmail.com
+_**contacts**:_ __Phone:__ +7-919-45-42-807, __e-mail:__ evgeni.zv@gmail.com
 
-_Summary:_ 
+_**Summary**:_ 
 
 My goal is to become a skilled front-end developer! It is very interesting job.
 Now I'm working as a Junior front-end developer. My duties are fixing some bugs, solving tasks from Service Desk, doing some simple developer's tasks, etc.
 I'm studying front-end development by reading documentation and doing pet-progects. 
-I hope this course wwill bring to me a lot of experience and fun!
+I hope this course will bring to me a lot of experience and fun!
 
-_My skills:_
+_**My skills**:_
 
 1. Page-proofs: 
     1. HTML
@@ -26,47 +26,47 @@ _My skills:_
     1. GitHub
 1. using of npm
 
- _Example of code:_ 
+ _**Example of code**:_ 
 
 React-component __Button__, text depends on cookie's existence in the browser:
 
-    ```javascript
-    import React from 'react'
-    import cookies from 'react-cookies'
-    import styled from 'styled-components'
+```javascript
+import React from 'react'
+import cookies from 'react-cookies'
+import styled from 'styled-components'
 
-    const IS_AUTH = 'cookie_auth'
-    const ButtonContainer = styled.button'
+const IS_AUTH = 'cookie_auth'
+const ButtonContainer = styled.button'
 
-    '
-    class Button extends Component {
-        state = {
-            isAuth: false
-        }
-        checkCookie = () => {
-            let cookieExist = cookies.load(IS_AUTH);
-            if (cookieExist) {
-                this.setState({
-                    isAuth: true
-                })
-            } 
-        }
-        componentWillMount() {
-            this.checkCookie();
-        }
-        render() {
-            return(
-                <React.Fragment>
-                    <button>
-                        {this.state.isAuth ? 'Sign Out' : 'Sign In'}
-                    </button>
-                </React.Fragment>
-            )
-        }
+'
+class Button extends Component {
+    state = {
+        isAuth: false
     }
-    ```
+    checkCookie = () => {
+        let cookieExist = cookies.load(IS_AUTH);
+        if (cookieExist) {
+            this.setState({
+                isAuth: true
+            })
+        } 
+    }
+    componentWillMount() {
+        this.checkCookie();
+    }
+    render() {
+        return(
+            <React.Fragment>
+                <button>
+                    {this.state.isAuth ? 'Sign Out' : 'Sign In'}
+                </button>
+            </React.Fragment>
+        )
+    }
+}
+```
 
-_My pet-projects:_
+_**My pet-projects**:_
 
 1. __Snake-game__: js
 A game, that allow you to manage a snake. Snake can eat apples and grow.
@@ -78,12 +78,12 @@ A programm, that able to do some simple arythmetic operations.
 Articles, that includes some stories description of poets of Silver Age.
 [Link to repo (GitHub)](https://github.com/GoldilocksJB/Blog)
 
-_Education:_
+_**Education**:_
 
 * Higher education, profile - Information Security Specialist
 * Udemy course: 'The Web Developer Bootcamp'
 * Codeacademy: HTML + CSS basics
 
-_English level:_
+_**English level**:_
 
 __Pre-Intermediate:__ can reed original documentation, write simple text.
