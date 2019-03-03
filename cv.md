@@ -65,14 +65,17 @@ class Button extends Component {
 _**My pet-projects**:_
 
 * __Snake-game__: js
+
 A game, that allow you to manage a snake. Snake can eat apples and grow.
 [Link to repo (GitHub)](https://github.com/GoldilocksJB/Snake)
 
 * __Calculator__: js + css (canvas) 
+
 A programm, that able to do some simple arythmetic operations.
 [Link to repo (GitHub)](https://github.com/GoldilocksJB/Calculator)
 
 * __Articles of poetry__: react.js
+
 Articles, that includes some stories description of poets of Silver Age.
 [Link to repo (GitHub)](https://github.com/GoldilocksJB/Blog)
 
