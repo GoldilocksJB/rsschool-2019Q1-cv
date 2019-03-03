@@ -33,12 +33,8 @@ React-component __Button__, text depends on cookie's existence in the browser:
 ```javascript
 import React from 'react'
 import cookies from 'react-cookies'
-import styled from 'styled-components'
 
 const IS_AUTH = 'cookie_auth'
-const ButtonContainer = styled.button'
-
-'
 class Button extends Component {
     state = {
         isAuth: false
@@ -69,12 +65,17 @@ class Button extends Component {
 _**My pet-projects**:_
 
 1. __Snake-game__: js
+
 A game, that allow you to manage a snake. Snake can eat apples and grow.
 [Link to repo (GitHub)](https://github.com/GoldilocksJB/Snake)
+
 1. __Calculator__: js + css (canvas) 
+
 A programm, that able to do some simple arythmetic operations.
 [Link to repo (GitHub)](https://github.com/GoldilocksJB/Calculator)
+
 1. __Articles of poetry__: react.js
+
 Articles, that includes some stories description of poets of Silver Age.
 [Link to repo (GitHub)](https://github.com/GoldilocksJB/Blog)
 
