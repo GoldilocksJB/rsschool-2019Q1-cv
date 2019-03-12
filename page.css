@@ -1,0 +1,26 @@
+#root {
+    font-family: 'Sniglet', cursive;
+
+}
+.p-styled {
+    font-weight: bold;
+   
+}
+.h4-styled {
+    font-weight: bold;
+}
+.contacts:hover {
+    color: #F3BC20;
+}
+.roman {
+    list-style-type: upper-roman;
+}
+textarea {
+    resize: none;
+    height: 470px;
+    width: 570px;
+
+}
+.ul-wo-dots {
+    list-style-type: none;
+}
