@@ -1,6 +1,12 @@
 #root {
     font-family: 'Sniglet', cursive;
-    align-self: auto;
+    margin: auto;
+    width: 988px;
+    border-left: 3px solid #F3BC20;
+    padding-left: 15px;
+    border-right: 3px solid #F3BC20;
+    padding-right: 15px;
+    background-color: #FCFAF3;
 }
 .p-styled {
     font-weight: bold;
@@ -27,4 +33,15 @@ textarea {
 }
 .bordered-span {
     border-bottom: 1px solid #000000
+}
+.top-hr {
+    width: 490px;
+    margin-left: -5px;
+}
+.text {
+    width: 500px;
+}
+img {
+    position: absolute;
+    margin-left: 37%;
 }
