@@ -1,6 +1,6 @@
 #root {
     font-family: 'Sniglet', cursive;
-
+    align-self: auto;
 }
 .p-styled {
     font-weight: bold;
@@ -23,4 +23,8 @@ textarea {
 }
 .ul-wo-dots {
     list-style-type: none;
+    margin-top: -10px;
+}
+.bordered-span {
+    border-bottom: 1px solid #000000
 }
