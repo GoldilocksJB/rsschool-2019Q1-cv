@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="page.css" />
+    <link href="https://fonts.googleapis.com/css?family=Sniglet:400,800" rel="stylesheet">
+</head>
+<body>
+    <div id="root">
+        <img src="Photo.jpg" alt="photo">
+        <h2>Bondarenko Evgeniya</h2>
+        <span class="h4-styled">contacts:</span>
+        <span class="contacts">
+            <span class="bordered-span">Phone:</span>
+            +7-919-45-42-807,
+        </span>
+        <span class="contacts">
+            <span class="bordered-span">E-mail:</span>
+            evgeni.zv@gmail.com
+        </span>
+        <hr class="top-hr">
+        <h4 class="h4-styled">Summary:</h4>
+        <p class="text">My goal is to become a skilled front-end developer! It is very interesting job. Now I’m working as a Junior front-end developer. My duties are fixing some bugs, solving tasks from Service Desk, doing some simple developer’s tasks, etc. I’m studying front-end development by reading documentation and doing pet-progects. I hope this course will bring to me a lot of experience and fun!</p>
+        <h4 class="h4-styled">My skills:</h4>
+        <ul>
+            <li>Page-proofs:</li>
+        </ul>
+        <ul class="ul-wo-dots">
+            <li>I. HTML</li>
+            <li>II.CSS</li>
+            <li>III. using flex</li>
+            <li>IV. using bootstrap</li>
+        </ul>
+        <ul>
+            <li>Programming language:</li>
+        </ul>
+        <ul class="ul-wo-dots">
+            <li>I. javascript basics</li>
+            <li>II. SQL, PL/SQL</li>
+        </ul>
+        <ul>
+            <li>Frameworks and libraries:</li>
+        </ul>
+        <ul class="ul-wo-dots">
+            <li>I. jQuery</li>
+            <li>II. React.js</li>
+        </ul>
+        <ul>
+            <li>Version control system:</li>
+        </ul>
+        <ul class="ul-wo-dots">
+            <li>I. GitLab</li>
+            <li>II. GitHub</li>
+        </ul>
+        <ul>
+            <li>using of npm</li>
+        </ul>
+        
+        <h4 class="h4-styled">Example of code:</h4>
+        <p>React-component Button, text depends on cookie’s existence in the browser:</p>
+        <textarea disabled>
+            import React from 'react'
+            import cookies from 'react-cookies'
+            
+            const IS_AUTH = 'cookie_auth'
+            class Button extends Component {
+                state = {
+                    isAuth: false
+                }
+                checkCookie = () => {
+                    let cookieExist = cookies.load(IS_AUTH);
+                    if (cookieExist) {
+                        this.setState({
+                            isAuth: true
+                        })
+                    } 
+                }
+                componentWillMount() {
+                    this.checkCookie();
+                }
+                render() {
+                    return(
+                        <React.Fragment>
+                            <button>
+                                {this.state.isAuth ? 'Sign Out' : 'Sign In'}
+                            </button>
+                        </React.Fragment>
+                    )
+                }
+            }
+            </textarea>
+            <h4 class="h4-styled">My pet-projects:</h4>
+            <ul>
+                <li>Snake-game: js</li>
+            </ul>
+            <p>
+                A game, that allow you to manage a snake. Snake can eat apples and grow. <a href="https://github.com/GoldilocksJB/Snake">Link to repo (GitHub)</a>
+            </p>
+            <ul>
+                <li>Calculator: js + css (canvas)</li>
+            </ul>
+            <p>A programm, that able to do some simple arythmetic operations. <a href="https://github.com/GoldilocksJB/Calculator">Link to repo (GitHub)</a></p>
+            <ul>
+                <li>Articles of poetry: react.js</li>
+            </ul>
+            <p>Articles, that includes some stories description of poets of Silver Age. <a href="https://github.com/GoldilocksJB/Blog">Link to repo (GitHub)</a></p>
+            <h4 class="h4-styled">Education:</h4>
+            <ul>
+                <li>Higher education, profile - Information Security Specialist</li>
+                <li>Udemy course: ‘The Web Developer Bootcamp’</li>
+                <li>Codeacademy: HTML + CSS basics</li>
+            </ul>
+            <h4 class="h4-styled">English level:</h4>
+            <p>Pre-Intermediate: can reed original documentation, write simple text.</p>
+            <hr>
+        </div>
+</body>
+</html>
